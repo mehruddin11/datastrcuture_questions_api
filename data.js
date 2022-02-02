@@ -157,8 +157,8 @@ const Question = () =>[
     {
         id :'17',
         type:'hard',
-        question:"What is a postfix expression?',\
-        solution:'A stack is a linear data structure that operates on the same concept, in that components in a stack are added and deleted only from one end, referred to as the TOP. As a result, a stack is known as a LIFO\
+        question:"What is a postfix expression?",
+        solution:"A stack is a linear data structure that operates on the same concept, in that components in a stack are added and deleted only from one end, referred to as the TOP. As a result, a stack is known as a LIFO\
          (Last-In-First-Out) data structure because the piece that was put last is the first to be removed.\
          A stack may perform three fundamental operations:\
          PUSH: The push action inserts a new element into the stack. The new feature is placed at the top of the stack. However, before inserting the value, we must first verify if TOP=MAX–1, since if so, the stack is filled, and no more insertions are possible. An OVERFLOW message is printed if an attempt is made to put a value into an existing stack.\
