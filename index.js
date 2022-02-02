@@ -2,9 +2,7 @@ const { response } = require('express');
 const express = require('express');
 const { all } = require('express/lib/application');
 const {Question} = require('./data')
-const cors = require('cors');
 const app = express();
-app.use(cors())
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.get('/questions', (req, res)=>{
